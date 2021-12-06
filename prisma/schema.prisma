@@ -15,6 +15,6 @@ model DataElement {
   name String
   payload Json?
   createdBy String
-  createdAt DateTime?
+  createdAt  DateTime   @default(now())
 }
 
